@@ -1,34 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="author" content="CodePel">
-      <title> Mouse Move Parallax ✨ Example </title>
-      <!-- Style CSS -->
-      <link rel="stylesheet" href="./css/style.css">
-      <!-- Demo CSS (No need to include it into your project) -->
-      <link rel="stylesheet" href="./css/demo.css">
-      
-   </head>
-   <body>
-      <header class="cd__intro">
-         <h1> Mouse Move Parallax ✨ Example </h1>
-         <p> Mouse Move Parallax ✨ </p>
-         <div class="cd__action">
-            <a href="https://www.codepel.com/vanilla-javascript/parallax-effect-css-mouse-movement" title="Back to download and tutorial page" class="cd__btn back">Back to Tutorial</a>
-         </div>
-      </header>
-      <!--$%adsense%$-->
-      <main class="cd__main">
-         <!-- Start DEMO HTML (Use the following code into your project)-->
-         <div id="parallax"><h1>Parallax</h1></div>
-         <!-- END EDMO HTML (Happy Coding!)-->
-      </main>
-      <footer class="cd__credit">Author: oscicen - Distributed By: <a title="Free web design code & scripts" href="https://www.codepel.com?source=demo-page" target="_blank">CodePel</a></footer>
-      
-      <!-- Script JS -->
-      <script src="./js/script.js"></script>
-      <!--$%analytics%$-->
-   </body>
+   <title>Parallax - Neon</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+<div class="parallax js-parallax">
+  <figure class="parallax__wrapper js-parallax__wrapper">
+    <img class="parallax__item js-parallax__item" src="./Banner/banner_4_background.png" alt="Image description">
+    <img class="parallax__item js-parallax__item" src="./Banner/banner_3_third.png" data-parallax-distance="100" aria-hidden="true">
+    <img class="parallax__item js-parallax__item" src="./Banner/banner_2_second_v2.png" data-parallax-distance="200" aria-hidden="true">
+    <img class="parallax__item js-parallax__item" src="./Banner/banner_1_front.png" data-parallax-distance="300" aria-hidden="true">
+  </figure>
+</div>
+ </body>
+ <script async src="./js/script.js"></script>
 </html>
